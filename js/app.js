@@ -99,11 +99,8 @@ function validar_Password(pass) {
   return reg.test(pass) ? true : false;
 }
 
-// function para validar el email 
+// function para validar el email
 function validar_email(email) {
   var regex = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
   return regex.test(email) ? true : false;
 }
-
-
-
